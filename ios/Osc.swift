@@ -48,7 +48,7 @@ import SwiftOSC
                 case let someBool as Bool:
                     message.add(someBool)
                 case let someString as String:
-                    message.add(someString)  // 将字符串加入消息
+                    message.add(someString)
                 default:
                     print("data not supported")
             }
